@@ -2,7 +2,7 @@
 
 Content in this repository is licensed under three difference licenses:
 
-1. Branding, including logos, can only be used under explicit permission from [Raphael Sonabend](https://www.osponow.com/team/dr-raphael-sonabend) or [Agnes Kiragga]((https://www.osponow.com/team/dr-agnes-kiragga)).
+1. Branding, including logos, can only be used under explicit permission from [Raphael Sonabend](https://www.osponow.com/team/dr-raphael-sonabend) or [Agnes Kiragga](https://www.osponow.com/team/dr-agnes-kiragga).
 2. Software are made available under an [Apache 2.0 licence](https://www.apache.org/licenses/LICENSE-2.0).
 3. All other content (for example blog posts) are available under a [CC BY 4.0 licence](https://creativecommons.org/licenses/by/4.0/).
 
