@@ -1,18 +1,8 @@
 # LICENSE
 
-Content in this repository is licensed under three difference licenses:
+Software in this repository is available under an [Apache 2.0 licence](https://www.apache.org/licenses/LICENSE-2.0), see the website [Terms of Use](https://www.osponow.com/terms) for details about all other OSPO Now intellectual property.
 
-1. Branding, including logos, can only be used under explicit permission from [Raphael Sonabend](https://www.osponow.com/team/dr-raphael-sonabend) or [Agnes Kiragga](https://www.osponow.com/team/dr-agnes-kiragga).
-2. Software are made available under an [Apache 2.0 licence](https://www.apache.org/licenses/LICENSE-2.0).
-3. All other content (for example blog posts) are available under a [CC BY 4.0 licence](https://creativecommons.org/licenses/by/4.0/).
-
-Apache 2.0 and CC BY 4.0 permissive licences, which means you can adapt and redistribute all code and other content however you like for free, as long as you cite this repository and make clear if you have modified the original code.
-
-We recommend reading [The Turing Way licensing chapter](https://the-turing-way.netlify.app/reproducible-research/licensing.html) to learn more about licensing.
-
-## Licenses
-
-### Apache 2.0
+## Apache 2.0 License
 
 Below is a copy of the Apache 2.0 licence.
 
@@ -191,24 +181,3 @@ Below is a copy of the Apache 2.0 licence.
       defend, and hold each Contributor harmless for any liability
       incurred by, or claims asserted against, such Contributor by reason
       of your accepting any such warranty or additional liability.
-
-### CC BY 4.0
-
-The following is a human-readable summary of (and not a substitute for) the [full legal text of the CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode).
-
-> You are free to:
->
->    Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
->    Adapt — remix, transform, and build upon the material for any purpose, even commercially.
->    The licensor cannot revoke these freedoms as long as you follow the license terms.
->
-> Under the following terms:
->
->    Attribution - You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
->    No additional restrictions - You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
->
-> Notices:
->
-> You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.
->
-> No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
