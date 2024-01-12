@@ -82,14 +82,20 @@
     team = getTeam();
     team.forEach(x => {
       const id = x.name.replace(/\s/g, '');
-      $("#team_list").append(`<div id=${id} class="col-12 col-sm-3 team_member">`);
-      $("#" + id).load("/shared/team_list.php",
-        {
-          name: x.name,
-          jobtitle: x.jobtitle,
-          image: x.image,
-          url: x.name.replace(/\s/g, '-').toLowerCase()
-        });
+      const url = "/team/" + x.name.replace(/\s/g, '-').toLowerCase() + ".php";
+      $("#team_list").append(`
+      <div class="col-12 col-sm-3 team_member">
+        <a class="d-flex flex-column" href="${url}">
+          <img class="mb-3 img-thumbnail align-self-center img-team" alt="${x.name}" src="/resources/images/team/${x.image}">
+        </a>
+          <div class="text-center">
+            <a class="d-flex flex-column" href="${url}">
+              <h5 class='h5 text-center'>${x.name}</h5>
+            </a>
+            <div class="text-primary h6">${x.jobtitle}</div>
+          </div>
+        </a>
+      </div>`);
     });
   </script>
 

@@ -91,16 +91,22 @@
 
     updates.forEach(x => {
       const id = x.name.replace(/[.,\s]/g, '');
-      $("#updates_list").append(`<div id=${id} class="item row pt-4">`);
-      $("#" + id).load("/shared/updates_list.php",
-        {
-          name: x.name,
-          date: x.datestring,
-          image: x.image,
-          imagealt: x.imagealt,
-          url: x.name.replace(/[.,\s]/g, '-').toLowerCase(),
-          type: x.type
-        });
+      const url = "/articles/" + x.name.replace(/[.,\s]/g, '-').toLowerCase() + ".php";
+      $("#updates_list").append(`
+        <div class="item row pt-4">
+          <div class="col-8 d-flex align-items-center text-dark">
+          <div>
+            <b>${x.datestring}</b>
+            <br>
+            <a class='display-7 updates-link' href='${url}'>${x.name}</a>
+            <br>
+            <div class='my-2 badge badge-${x.type}'>${x.type}</div>
+          </div>
+        </div>
+        <div class="col-4 d-flex flex-column align-items-end align-self-center pb-4">
+          <img class="img-fluid" alt="${x.imagealt}" src="/resources/images/updates/${x.image}"></div>
+        </div>
+        <hr>`)
     });
 
     generatePagination();
