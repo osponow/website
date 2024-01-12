@@ -81,7 +81,7 @@
               $email = sanitizeInput($_POST["yourEmail"]);
               $email = str_replace(array("\r", "\n", "%0a", "%0d"), '', $email);
               if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                header("Location: contact.php?status=failure");
+                echo '<script>window.location.href = "/contact.php?status=failure";</script>';
                 exit();
               }
 
@@ -96,11 +96,11 @@
               $headers .= "MIME-Version: 1.0\r\n";
               $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
-              if (mail($toEmail, $subject, $content, $headers)) {
-                header("Location: contact.php?status=success");
+              if (mail($toEmail, $subject, $message, $headers)) {
+                echo '<script>window.location.href = "/contact.php?status=success";</script>';
                 exit();
               } else {
-                header("Location: contact.php?status=failure");
+                echo '<script>window.location.href = "/contact.php?status=failure";</script>';
                 exit();
               }
             }
