@@ -19,7 +19,7 @@
         <h5 class="pb-4">We want to provide a service that meets <strong>your</strong> needs. Our experts cover a range of sectors and experience, and we have a few different ways you can work with them. As well as our in-house expertise, we have a network of open-source consultants who are on-hand to help.</h5>
       </div>
       <div class="w-100 m-0 p-0">
-        <svg id="wave" viewBox="0 0 1200 70" version="1.1" xmlns="http://www.w3.org/2000/svg"><path style="transform:translate(0, 0px); opacity:1" fill="#F2F2F2" d='M0 59L50 55C100 51 200 44 300 30C400 15 500 -6 600 1C700 8 800 44 900 59C1000 73 1100 66 1150 62L1200 59V80H1150C1100 80 1000 80 900 80C800 80 700 80 600 80C500 80 400 80 300 80C200 80 100 80 50 80H0V59Z'></path></svg>
+        <svg id="wave" viewBox="0 0 1200 77" version="1.1" xmlns="http://www.w3.org/2000/svg"><path style="transform:translate(0, 0px); opacity:1" fill="#F2F2F2" d='M0 59L50 55C100 51 200 44 300 30C400 15 500 -6 600 1C700 8 800 44 900 59C1000 73 1100 66 1150 62L1200 59V80H1150C1100 80 1000 80 900 80C800 80 700 80 600 80C500 80 400 80 300 80C200 80 100 80 50 80H0V59Z'></path></svg>
       </div>
     </div>
       <div class="container-md px-3 px-md-5 w-100 h-100 py-0 my-0">
@@ -254,7 +254,7 @@
             </p>
           </div>
         </div>
-        <div class="col-12 col-sm-4 d-flex flex-column">
+        <div class="col-12 col-sm-4 pt-3 pt-sm-0 d-flex flex-column">
           <div class="service-card">
             <i class="fa fa-list fa-4x align-self-center pb-3" aria-hidden="true"></i>
             <h5 class="text-primary">Bespoke Contracts</h5>
@@ -263,7 +263,7 @@
             </p>
           </div>
         </div>
-        <div class="col-12 col-sm-4 d-flex flex-column">
+        <div class="col-12 col-sm-4 pt-3 pt-sm-0 d-flex flex-column">
           <div class="service-card">
             <i class="fa fa-train fa-4x align-self-center pb-3" aria-hidden="true"></i>
             <h5 class="text-primary">Training Courses</h5>

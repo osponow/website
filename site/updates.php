@@ -30,7 +30,7 @@
       <ul class="pagination justify-content-center" id="pagination"></ul>
     </nav>
 
-    <div class="row d-flex justify-content-between pb-5 container" id="updates_list"></div>
+    <div class="row d-flex justify-content-between pb-5" id="updates_list"></div>
 
     <nav aria-label="Page navigation" id="pagination-copy" class="pb-5">
     </nav>
@@ -93,18 +93,19 @@
       const id = x.name.replace(/[.,\s]/g, '');
       const url = "/articles/" + x.name.replace(/[.,\s]/g, '-').toLowerCase() + ".php";
       $("#updates_list").append(`
-        <div class="item row pt-4">
-          <div class="col-8 d-flex align-items-center text-dark">
-          <div>
-            <b>${x.datestring}</b>
-            <br>
-            <a class='display-7 updates-link' href='${url}'>${x.name}</a>
-            <br>
-            <div class='my-2 badge badge-${x.type}'>${x.type}</div>
+        <div class="item row pt-4 d-flex flex-row-reverse">
+          <div class="col-12 col-sm-4 d-flex flex-column align-items-end align-self-center">
+            <img class="img-fluid" alt="${x.imagealt}" src="/resources/images/updates/${x.image}">
           </div>
-        </div>
-        <div class="col-4 d-flex flex-column align-items-end align-self-center pb-4">
-          <img class="img-fluid" alt="${x.imagealt}" src="/resources/images/updates/${x.image}"></div>
+          <div class="col-12 col-sm-8 d-flex align-items-center text-dark pb-4">
+            <div>
+              <b>${x.datestring}</b>
+              <br>
+              <a class='display-7 updates-link' href='${url}'>${x.name}</a>
+              <br>
+              <div class='my-2 badge badge-${x.type}'>${x.type}</div>
+            </div>
+          </div>
         </div>
         <hr>`)
     });
