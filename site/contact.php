@@ -45,7 +45,7 @@
             <div class="form-group">
               <input class="form-check-input" type="checkbox" value="" id="privacyCheck" required>
               <label class="form-check-label d-inline" for="privacyCheck">
-                I have read and agree to the OSPO Now <a target="_blank" href="/privacy.php">privacy policy</a>.
+                I have read and agree to the OSPO Now <a href="/privacy.php">privacy policy</a>.
               </label>
               <div class="invalid-feedback feedback-pos">
                 We are only able to process this form if you agree to our privacy policy.
