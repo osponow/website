@@ -1,0 +1,1 @@
+function getUpdates(e){const a=[{name:"OSPO Now has launched",datestring:"19 January 2024",image:"logo.png",imagealt:"OSPO Now logo.",type:"News",date:"2024-01-19"}];return void 0===e?a:a.filter((a=>a.name==e))[0]}

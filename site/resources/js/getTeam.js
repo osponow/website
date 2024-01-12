@@ -1,0 +1,1 @@
+function getTeam(e){const a=[{name:"Dr Agnes Kiragga",jobtitle:"Co-Founder",image:"agnes.jpg"},{name:"Charlotte Misseldine",jobtitle:"Founder's Associate",image:"charlotte.jpeg"},{name:"Dr Raphael Sonabend",jobtitle:"CEO and Co-Founder",image:"raphael.jpeg"}];return void 0===e?a:a.filter((a=>a.name==e))[0]}
