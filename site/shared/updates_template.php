@@ -48,7 +48,7 @@
               If you use this article in your work, please use the following statement to credit this article:
               <blockquote>
                 <?php
-                  $url = "https://www.osponow.com/updates/" . preg_replace('/[.,\s]/', '-', strtolower($name));
+                  $url = "https://www.osponow.com/articles/" . preg_replace('/[.,\s]/', '-', strtolower($name));
                   $url = "<a href='{$url}'>{$url}</a>";
                   echo "Content from the OSPO Now article \"{$name}\" is shared/adapted from {$url} and licensed under <a href='https://creativecommons.org/licenses/by/4.0/deed.en'>CC BY 4.0</a>.";
                 ?>
