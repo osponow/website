@@ -18,9 +18,10 @@
     <div class="row h-100 flex-grow-1">
       <div class="col-12 col-md-6 col-lg-7 col-xl-8 col-xxl-9 py-0 pt-5" id="contact-col">
           <h1 class="py-3 display-5">Contact Us</h1>
-          <h5 class="pb-4">Get in touch today to get started on your open source journey. We're happy to offer a <strong>free</strong> no-obligation 30-minute consultation to find out how we can help optimize your company with open source.</h5>
+          <h5>Get in touch today to get started on your open source journey. We're happy to offer a <strong>free</strong> no-obligation 30-minute consultation to find out how we can help optimize your company with open source.</h5>
+          <h5 class="pb-4">Fill in the form below or email us at <a href="mailto:hello@osponow.com">hello@osponow.com</a> and we will get back to you as soon as possible.</h5>
 
-          <form class="needs-validation mb-5" novalidate method="post">
+          <form class="needs-validation pt-3" novalidate method="post">
             <div class="form-group">
               <label for="yourName">Name</label>
               <input type="text" class="form-control" id="yourName" name="yourName" placeholder="👤 Name" required>

@@ -39,6 +39,8 @@
             <a href="<?php echo $cta_link ?>"><div class="btn btn-primary"><?php echo $cta_label ?></div></a>
           </div>
           <div class="my-4 updates-separator"></div>
+          <p>Article written by <span id="authors"></span>.</p>
+          <div class="my-4 updates-separator"></div>
           <div class="pb-3">
             <img class='me-2 mb-1 square-25' alt="LinkedIn logo." src='/resources/images/logo-li.png'>
             <a href=<?php echo $linkedin ?>>Join the conversation on LinkedIn.</a>
@@ -48,7 +50,7 @@
               If you use this article in your work, please use the following statement to credit this article:
               <blockquote>
                 <?php
-                  $url = "https://www.osponow.com/articles/" . preg_replace('/[.,\s]/', '-', strtolower($name));
+                  $url = "https://osponow.com/articles/" . preg_replace('/[.,\s]/', '-', strtolower($name));
                   $url = "<a href='{$url}'>{$url}</a>";
                   echo "Content from the OSPO Now article \"{$name}\" is shared/adapted from {$url} and licensed under <a href='https://creativecommons.org/licenses/by/4.0/deed.en'>CC BY 4.0</a>.";
                 ?>
@@ -60,13 +62,24 @@
                 <?php
                   $year = substr($datestring, -4);
                   $today = date("d F Y");
-                  echo "\"{$name}\". ({$year}). OSPO Now. Accessed on {$today}, {$url}."
+                  echo "<span id='authors_abbr'></span>. \"{$name}\". ({$year}). OSPO Now. Accessed on {$today}, {$url}."
                 ?>
               </blockquote>
             </p>
         </div>
       </div>
     </div>
+    <script src="/resources/js/getTeam.js"></script>
+    <script>
+      const authors = <?php echo $authors ?>;
+      const team = getTeam();
+
+      abbr = authors.map(x => team.find(t => t.name == x).name_abbr);
+      const auth_url = authors.map(x => `<a href='/team/${x.replace(/\s/g, '-').toLowerCase()}.php'>${x}</a>`);
+
+      $("#authors").html(listToString(auth_url));
+      $("#authors_abbr").html(listToString(abbr));
+    </script>
   </main>
 
   <?php include_once $path . '/shared/footer.php' ?>

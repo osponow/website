@@ -7,6 +7,7 @@
       $title = "Dr Agnes Kiragga";
       $header = "white";
       $name = "Dr Agnes Kiragga";
+	$name_abbr = "Kiragga, A";
 	$email = "a.kiragga";
 	$jobtitle = "Co-Founder";
 	$pronouns = "She/Her";

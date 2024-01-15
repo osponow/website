@@ -7,6 +7,7 @@
       $title = "Dr Raphael Sonabend";
       $header = "white";
       $name = "Dr Raphael Sonabend";
+	$name_abbr = "Sonabend, R";
 	$email = "r.sonabend";
 	$jobtitle = "CEO and Co-Founder";
 	$pronouns = "They/He";

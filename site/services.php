@@ -25,8 +25,8 @@
       <div class="container-md px-3 px-md-5 w-100 h-100 py-0 my-0">
       <div class="row row-full-width bg-light pt-0 mt-0">
         <h2 class="text-secondary display-6 pt-0 mt-0">Our Sectors</h2>
-        <p class="pb-3">We have experience working across all sectors, including...</p>
-        <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-sm-0">
+        <p class="pb-4">We have experience working across all sectors, including...</p>
+        <div class="col-12 col-sm-6 col-lg-3">
           <div class="service-card">
             <i class="fa fa-industry fa-4x" aria-hidden="true"></i>
             <h5 class="text-primary pt-2">For-profits</h5>
@@ -56,7 +56,7 @@
     <div class="container-md px-3 px-md-5 w-100 h-100 pb-5">
         <h2 class="text-secondary display-6 pt-5">Our Expertise</h2>
         <p>Click through the cards below to see the expertise covered in OSPO Now.</p>
-        <div class="row pt-3 d-flex justify-content-center g-0 gx-xxl-2 gy-md-3" id="expertise">
+        <div class="row pt-4 d-flex justify-content-center g-0 gx-xxl-2 gy-md-3" id="expertise">
             <div class="col-12 col-sm-6 col-lg-5 col-xxl-3">
               <div class="flipcard front-active flipcard-imp mx-4 mx-sm-1 mx-xl-5 mx-xxl-2">
                 <div class="flipcard_inner">
@@ -106,7 +106,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-lg-5 col-xxl-3">
+            <div class="col-12 col-sm-6 col-lg-5 col-xxl-3 pt-4 pt-sm-0">
               <div class="flipcard front-active flipcard-des mx-4 mx-sm-1 mx-xl-5 mx-xxl-2">
                   <div class="flipcard_inner">
                     <div class="flipcard_front">
@@ -155,7 +155,7 @@
                   </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-6 col-lg-5 col-xxl-3">
+            <div class="col-12 col-sm-6 col-lg-5 col-xxl-3 pt-4 pt-sm-0">
               <div class="flipcard front-active flipcard-sus mx-4 mx-sm-1 mx-xl-5 mx-xxl-2">
                 <div class="flipcard_inner">
                   <div class="flipcard_front">
@@ -205,7 +205,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-lg-5 col-xxl-3">
+            <div class="col-12 col-sm-6 col-lg-5 col-xxl-3 pt-4 pt-sm-0">
               <div class="flipcard front-active flipcard-exp mx-4 mx-sm-1 mx-xl-5 mx-xxl-2">
                 <div class="flipcard_inner">
                   <div class="flipcard_front">
@@ -244,7 +244,7 @@
     <div class="row pb-5 row-full-width bg-light">
       <h2 class="text-secondary display-6"><a id="working">Ways of Working</a></h2>
       <p>Depending on your needs we offer a few different ways of working together.</p>
-      <div class="row pt-3 pb-5">
+      <div class="row pt-4 pb-5">
         <div class="col-12 col-sm-4 d-flex flex-column">
           <div class="service-card">
             <i class="fa fa-clock-o fa-4x align-self-center pb-3" aria-hidden="true"></i>
@@ -254,7 +254,7 @@
             </p>
           </div>
         </div>
-        <div class="col-12 col-sm-4 pt-3 pt-sm-0 d-flex flex-column">
+        <div class="col-12 col-sm-4 pt-4 pt-sm-0 d-flex flex-column">
           <div class="service-card">
             <i class="fa fa-list fa-4x align-self-center pb-3" aria-hidden="true"></i>
             <h5 class="text-primary">Bespoke Contracts</h5>
@@ -263,7 +263,7 @@
             </p>
           </div>
         </div>
-        <div class="col-12 col-sm-4 pt-3 pt-sm-0 d-flex flex-column">
+        <div class="col-12 col-sm-4 pt-4 pt-sm-0 d-flex flex-column">
           <div class="service-card">
             <i class="fa fa-train fa-4x align-self-center pb-3" aria-hidden="true"></i>
             <h5 class="text-primary">Training Courses</h5>

@@ -95,7 +95,7 @@
       $("#updates_list").append(`
         <div class="item row pt-4 d-flex flex-row-reverse">
           <div class="col-12 col-sm-4 d-flex flex-column align-items-end align-self-center">
-            <img class="img-fluid" alt="${x.imagealt}" src="/resources/images/updates/${x.image}">
+            <a href='${url}'><img class="img-fluid" alt="${x.imagealt}" src="/resources/images/updates/${x.image}"></a>
           </div>
           <div class="col-12 col-sm-8 d-flex align-items-center text-dark pb-4">
             <div>

@@ -15,6 +15,7 @@
 	$cta_text = "Get in touch today to see how Open Source can benefit your company.";
 	$cta_label = "Get in touch";
 	$cta_link = "/contact.php";
+	$authors = "['Dr Raphael Sonabend', 'Dr Agnes Kiragga']";
 	$content = "<h1>It's official, we've launched!</h1>
 <p>We are very excited to announce the official launch of OSPO Now, a company dedicated to open source. There's plenty for you to read on our website so we'll keep this post brief and just ensure you've seen the highlights.</p>
 <h2>What is OSPO Now?</h2>
