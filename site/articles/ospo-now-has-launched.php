@@ -7,8 +7,8 @@
       $title = "OSPO Now has launched";
       $header = "white";
       $name = "OSPO Now has launched";
-	$date = "2024-01-19";
-	$linkedin = "fixme";
+	$date = "2024-01-17";
+	$linkedin = "https://www.linkedin.com/feed/update/urn:li:share:7153332885972824065/";
 	$image = "logo.png";
 	$imagealt = "OSPO Now logo.";
 	$type = "News";
@@ -36,7 +36,7 @@ For all our early adopters we are offering*:</p>
 <li>Bespoke training courses written to meet your needs</li>
 </ul>
 <p>*<sub><sup>this offer is not binding and may be retracted at any time.</sub></sup></p>";
-	$datestring = "19 January 2024";
+	$datestring = "17 January 2024";
 	
       include_once $path . '/shared/updates_template.php';
     ?>
