@@ -5,8 +5,22 @@
   $path = $_SERVER['DOCUMENT_ROOT'];
   $title = "Contact OSPO Now";
   $header = "primary";
-  include_once $path . "/shared/head.php";
 ?>
+
+<head>
+  <?php include_once $path . "/shared/head.php"; ?>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "ContactPage",
+      "breadcrumb": "Home > Contact",
+      "mainEntity": {
+        "@type": "ContactPoint",
+        "email": "hello@osponow.com"
+      }
+    }
+  </script>
+</head>
 
 <body class="d-flex flex-column h-100">
 
@@ -112,18 +126,7 @@
       </div>
     </div>
   </div>
-
   </main>
-
-    <style>
-      .texture {
-        right: 0;
-        position: absolute;
-        z-index: -200;
-        opacity: 0.9;
-      }
-    </style>
-
 
   <?php include_once $path . '/shared/footer.php' ?>
 

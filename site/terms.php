@@ -5,8 +5,11 @@
   $path = $_SERVER['DOCUMENT_ROOT'];
   $title = "Terms of Use";
   $header = "light";
-  include_once $path . "/shared/head.php";
 ?>
+
+<head>
+  <?php include_once $path . "/shared/head.php"; ?>
+</head>
 
 <body class="d-flex flex-column h-100">
 

@@ -5,8 +5,26 @@
   $path = $_SERVER['DOCUMENT_ROOT'];
   $title = "OSPO Now";
   $header = "light";
-  include_once $path . "/shared/head.php";
 ?>
+
+<head>
+  <?php include_once $path . "/shared/head.php"; ?>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "OSPO Now",
+      "description": "Your open source program office is ready for you.",
+      "url": "https://osponow.com",
+      "publisher": {
+        "@type": "Organization",
+        "name": "OSPO Now",
+        "logo": "https://osponow.com/resources/images/logo_tm.svg",
+        "email": "hello@osponow.com"
+      }
+    }
+  </script>
+</head>
 
 <body class="h-100">
 

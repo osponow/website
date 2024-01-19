@@ -5,8 +5,31 @@
   $path = $_SERVER['DOCUMENT_ROOT'];
   $title = "About OSPO Now";
   $header = "primary";
-  include_once $path . "/shared/head.php";
 ?>
+
+<head>
+  <?php include_once $path . "/shared/head.php"; ?>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebPage",
+      "name": "About Us",
+      "description": "Information about our company and team",
+      "url": "https://osponow.com/about",
+      "breadcrumb": "Home > About Us",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "OSPO Now",
+        "url": "https://osponow.com/",
+        "description": "OSPO Now provides virtual open source program offices to help you implement open-source solutions.",
+        "foundingDate": "October 2023",
+        "sameAs": [
+          "https://www.linkedin.com/company/ospo-now/"
+        ]
+      }
+    }
+  </script>
+</head>
 
 <body class="d-flex flex-column h-100">
 
@@ -81,20 +104,20 @@
   <script>
     team = getTeam();
     team.forEach(x => {
-      const id = x.name.replace(/\s/g, '');
-      const url = "/team/" + x.name.replace(/\s/g, '-').toLowerCase() + ".php";
+      const name = x.name.replace('Dr ', '').replace(/\s/g, '-').toLowerCase();
+      const url = "/team/" + name + ".php";
       $("#team_list").append(`
-      <div class="col-12 col-sm-3 team_member">
-        <a class="d-flex flex-column" href="${url}">
-          <img class="mb-3 img-thumbnail align-self-center img-team" alt="${x.name}" src="/resources/images/team/${x.image}">
-        </a>
-          <div class="text-center">
-            <a class="d-flex flex-column" href="${url}">
-              <h5 class='h5 text-center'>${x.name}</h5>
-            </a>
-            <div class="text-primary h6">${x.jobtitle}</div>
-          </div>
-        </a>
+        <div itemscope itemtype="http://schema.org/Person" class="col-12 col-sm-3 team_member">
+          <a class="d-flex flex-column" href="${url}">
+            <img class="mb-3 img-thumbnail align-self-center img-team" alt="${x.name}" src="/resources/images/team/${x.image}">
+          </a>
+            <div class="text-center">
+              <a itemprop="url" class="d-flex flex-column" href="https://osponow.com/${url}">
+                <h5 itemprop="name" class='h5 text-center'>${x.name}</h5>
+              </a>
+              <div itemprop="jobTitle" class="text-primary h6">${x.jobtitle}</div>
+            </div>
+          </a>
       </div>`);
     });
   </script>

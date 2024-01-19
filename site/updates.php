@@ -5,8 +5,20 @@
   $path = $_SERVER['DOCUMENT_ROOT'];
   $title = "OSPO Now Updates";
   $header = "light";
-  include_once $path . "/shared/head.php";
 ?>
+
+<head>
+  <?php include_once $path . "/shared/head.php"; ?>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "ItemList",
+      "name": "OSPO Now Updates",
+      "description": "Articles, blogs, updates, and news about OSPO Now",
+      "url": "https://osponow.com/updates"
+    }
+  </script>
+</head>
 
 <body class="d-flex flex-column h-100">
 
@@ -93,15 +105,16 @@
       const id = x.name.replace(/[.,\s]/g, '');
       const url = "/articles/" + x.name.replace(/[.,\s]/g, '-').toLowerCase() + ".php";
       $("#updates_list").append(`
-        <div class="item row pt-4 d-flex flex-row-reverse">
+        <div itemscope itemtype="http://schema.org/BlogPosting" class="item row pt-4 d-flex flex-row-reverse">
           <div class="col-12 col-sm-4 d-flex flex-column align-items-end align-self-center">
-            <a href='${url}'><img class="img-fluid" alt="${x.imagealt}" src="/resources/images/updates/${x.image}"></a>
+            <a href='${url}'><img itemprop="image" class="img-fluid" alt="${x.imagealt}" src="https://osponow.com/resources/images/updates/${x.image}"></a>
           </div>
           <div class="col-12 col-sm-8 d-flex align-items-center text-dark pb-4">
             <div>
+              <meta itemprop="datePublished" content="${x.date}">
               <b>${x.datestring}</b>
               <br>
-              <a class='display-7 updates-link' href='${url}'>${x.name}</a>
+              <a itemprop="url" class='display-7 updates-link' href='https://osponow.com${url}'><span itemprop="headline">${x.name}</span></a>
               <br>
               <div class='my-2 badge badge-${x.type}'>${x.type}</div>
             </div>

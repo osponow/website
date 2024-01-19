@@ -1,7 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include_once $path . "/shared/head.php"; ?>
+<?php
+  $url = "https://osponow.com/articles/" . preg_replace('/[.,\s]/', '-', strtolower($name));
+?>
+
+<head>
+  <?php include_once $path . "/shared/head.php"; ?>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "<?php echo $url ?>"
+      },
+      "headline": "<?php echo $name ?>",
+      "image": "https://osponow.com/resources/images/updates/<?php echo $image ?>",
+      "datePublished": "<?php echo $date ?>",
+      "publisher": {
+        "@type": "Organization",
+        "name": "OSPO Now",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://osponow.com/resources/images/logo_tm.svg"
+        }
+      },
+      "articleBody": "<?php echo $content ?>"
+    }
+  </script>
+</head>
 
 <body class="d-flex flex-column h-100">
 
@@ -50,7 +78,6 @@
               If you use this article in your work, please use the following statement to credit this article:
               <blockquote>
                 <?php
-                  $url = "https://osponow.com/articles/" . preg_replace('/[.,\s]/', '-', strtolower($name));
                   $url = "<a href='{$url}'>{$url}</a>";
                   echo "Content from the OSPO Now article \"{$name}\" is shared/adapted from {$url} and licensed under <a href='https://creativecommons.org/licenses/by/4.0/deed.en'>CC BY 4.0</a>.";
                 ?>
@@ -75,7 +102,7 @@
       const team = getTeam();
 
       abbr = authors.map(x => team.find(t => t.name == x).name_abbr);
-      const auth_url = authors.map(x => `<a href='/team/${x.replace(/\s/g, '-').toLowerCase()}.php'>${x}</a>`);
+      const auth_url = authors.map(x => `<a href='/team/${x.replace('Dr ', '').replace(/\s/g, '-').toLowerCase()}.php'>${x}</a>`);
 
       $("#authors").html(listToString(auth_url));
       $("#authors_abbr").html(listToString(abbr));

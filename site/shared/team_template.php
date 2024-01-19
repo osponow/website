@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include_once $path . "/shared/head.php"; ?>
+<head>
+  <?php include_once $path . "/shared/head.php"; ?>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "<?php echo $name ?>",
+      "jobTitle": "<?php echo $jobtitle ?>",
+      "url": "<?php echo "https://www.linkedin.com/in/" . $linkedin ?>",
+      "email": "<?php echo $email ?>@osponow.com",
+      "image": "https://osponow.com/resources/images/team/<?php echo $image ?>"
+    }
+  </script>
+</head>
+
 
 <body class="d-flex flex-column h-100">
 
@@ -41,9 +55,53 @@
         <div class='row-full-width'>
           <p><?php echo $content ?></p>
         </div>
+
+
+      <?php $vcard = strtolower(str_replace(' ', '-', preg_replace('/^Dr /', '', $name))); ?>
+      <a id="card"></a>
+        <div class="contact_card d-inline-block overflow-hidden mb-4" style="position:relative">
+          <div class="row contact_imgs">
+            <div class="col-9">
+              <img alt="<?php echo $name ?>" src=<?php echo "'/resources/images/team/" . $image . "'" ?>>
+            </div>
+            <div class="col-3 d-flex justify-content-end align-items-center px-0 mx-0">
+              <img class="logo_tws" alt="OSPO Now logo." src="/resources/images/logo_tws.svg">
+            </div>
+          </div>
+          <div class="row">
+              <b class="pb-0 mb-0 pt-2"><?php echo $name ?></b>
+              <p class='contact_job py-0 my-0 d-inline-block text-primary'>
+                <span class="p-0 m-0"><?php echo $jobtitle ?></span>
+                <span class='text-muted p-0 m-0 d-inline-block'>(<?php echo $pronouns ?>)</span>
+              </p>
+          </div>
+          <hr>
+          <div class="row py-0 my-0">
+            <div class="col-12 col-sm-8 d-flex flex-column justify-content-end py-0 my-0">
+              <div class="py-0 my-0">
+                <img class='ms-0 ps-0 me-1 square-25 mb-1' alt="LinkedIn logo." src='/resources/images/logo-li.png' aria-hidden="true"><a class="p-0 m-0" href=<?php echo "'https://www.linkedin.com/in/" . $linkedin ."'" ?>><?php echo $linkedin ?></a>
+              </div>
+              <div class="py-0 my-0 ps-1">
+                <i class="fa fa-solid fa-envelope square-25 d-inline-block" aria-hidden="true"></i><a class="p-0 m-0" href="mailto:<?php echo $email ?>@osponow.com?subject=Swapping details&body=Now you have my email!"><?php echo $email ?>@osponow.com</a>
+              </div>
+              <div>
+                <i class="fa fa-solid fa-globe square-25 d-inline-block ps-1" aria-hidden="true"></i>
+                <a class="p-0 m-0" href="https://osponow.com">osponow.com</a>
+              </div>
+              <div>
+                <i class="fa fa-download square-25 d-inline-block ps-1" aria-hidden="true"></i>
+                <a class="p-0 m-0" href="/resources/vcards/<?php echo $vcard ?>.vcf" download="<?php echo $vcard ?>.vcf">Download vCard</a>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 d-block text-center text-sm-end p-0 m-0">
+              <img class="contact_qr pt-2 pt-sm-0" alt="<?php echo $name ?>" src="/resources/images/team/qrs/<?php echo $vcard ?>.png">
+              <p class="m-0 p-0" style="font-size: 12px">Download vCard</p>
+            </div>
+          </div>
+          <img class="texture_card" src="/resources/images/texture_maroon_1.svg">
+      </div>
       </div>
     </div>
-
   </main>
 
   <?php include_once $path . '/shared/footer.php' ?>

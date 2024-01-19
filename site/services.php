@@ -5,8 +5,55 @@
   $path = $_SERVER['DOCUMENT_ROOT'];
   $title = "OSPO Now Services";
   $header = "secondary";
-  include_once $path . "/shared/head.php";
 ?>
+
+<head>
+  <?php include_once $path . "/shared/head.php"; ?>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "ItemList",
+      "name": "OSPO Now Services",
+      "description": "Services offered by OSPO Now",
+      "url": "https://osponow.com/services",
+      "itemListElement": [
+        {
+          "@type": "Service",
+          "provider": {
+            "@type": "Organization",
+            "name": "OSPO Now",
+            "url": "https://osponow.com"
+          },
+          "serviceType": "Retainer",
+          "name": "Experts on Retainer",
+          "description": "If you don't need support on a specific project but want an expert on hand for ad-hoc advice, then our retainer is the best option for you. In an initial scoping call we will identify the best package for you, with a fixed monthly cost and no hidden fees."
+        },
+        {
+          "@type": "Service",
+          "provider": {
+            "@type": "Organization",
+            "name": "OSPO Now",
+            "url": "https://osponow.com"
+          },
+          "serviceType": "Contracts",
+          "name": "Bespoke Contracts",
+          "description": "Bespoke contracts are suitable when you have a fixed, long-term project in mind. We will learn what you need in a free, initial consultation, and will use that to plan deliverables against realistic timelines and to put together the optimal team for you."
+        },
+        {
+          "@type": "Service",
+          "provider": {
+            "@type": "Organization",
+            "name": "OSPO Now",
+            "url": "https://osponow.com"
+          },
+          "serviceType": "Training",
+          "name": "Training Courses",
+          "description": "Whether you have an in-house OSPO or you're only just learning about open source, we have the training program to upskill your staff. Talk to us today to find out which of our courses are most suitable for your company."
+        }
+      ]
+    }
+  </script>
+</head>
 
 <body class="d-flex flex-column h-100">
 
