@@ -59,7 +59,7 @@
 
       <?php $vcard = strtolower(str_replace(' ', '-', preg_replace('/^Dr /', '', $name))); ?>
       <a id="card"></a>
-        <div class="contact_card d-inline-block overflow-hidden mb-4" style="position:relative">
+        <div class="contact_card d-inline-block overflow-hidden mb-4 p-3 pe-4 pe-sm-5">
           <div class="row contact_imgs">
             <div class="col-9">
               <img alt="<?php echo $name ?>" src=<?php echo "'/resources/images/team/" . $image . "'" ?>>
@@ -77,7 +77,7 @@
           </div>
           <hr>
           <div class="row py-0 my-0">
-            <div class="col-12 col-sm-8 d-flex flex-column justify-content-end py-0 my-0">
+            <div class="col-12 col-sm-8 d-flex flex-column justify-content-end py-0 my-0" style="z-index: 1000">
               <div class="py-0 my-0">
                 <img class='ms-0 ps-0 me-1 square-25 mb-1' alt="LinkedIn logo." src='/resources/images/logo-li.png' aria-hidden="true"><a class="p-0 m-0" href=<?php echo "'https://www.linkedin.com/in/" . $linkedin ."'" ?>><?php echo $linkedin ?></a>
               </div>
