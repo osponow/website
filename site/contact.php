@@ -66,7 +66,7 @@
                 We are only able to process this form if you agree to our privacy policy.
               </div>
             </div>
-            <button type="submit" class="btn btn-primary mt-4 w-100">Send message</button>
+            <button type="submit" class="btn btn-primary mt-4 w-100 mb-5">Send message</button>
           </form>
           <?php
             error_reporting(-1);
