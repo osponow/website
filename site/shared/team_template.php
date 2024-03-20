@@ -39,10 +39,14 @@
           <span class="">
           <a href=<?php echo "'https://www.linkedin.com/in/" . $linkedin ."'" ?>>
             <img class='me-1 square-25 mb-1' alt="LinkedIn logo." src='/resources/images/logo-li.png' aria-hidden="true"><span class="sr-only"><?php echo "https://www.linkedin.com/in/" . $linkedin ?></span></a>
-            <a class="text-dark" href="mailto:<?php echo $email ?>@osponow.com">
-              <i class="fa fa-solid fa-envelope square-25" aria-hidden="true"></i>
-              <span class="sr-only"><?php echo $email ?>@osponow.com</span>
-            </a>
+            <?php
+              if ($email !== "None") {
+              echo '<a class="text-dark" href="mailto:' . $email . '@osponow.com">
+                <i class="fa fa-solid fa-envelope square-25" aria-hidden="true"></i>
+                <span class="sr-only">' . $email . '@osponow.com</span>
+              </a>';
+              }
+            ?>
           </span>
         </div>
         </div>
@@ -57,7 +61,7 @@
         </div>
 
 
-      <?php $vcard = strtolower(str_replace(' ', '-', preg_replace('/^Dr /', '', $name))); ?>
+      <!-- <?php $vcard = strtolower(str_replace(' ', '-', preg_replace('/^Dr /', '', $name))); ?>
       <a id="card"></a>
         <div class="contact_card d-inline-block overflow-hidden mb-4 p-3 pe-4 pe-sm-5">
           <div class="row contact_imgs">
@@ -81,9 +85,13 @@
               <div class="py-0 my-0">
                 <img class='ms-0 ps-0 me-1 square-25 mb-1' alt="LinkedIn logo." src='/resources/images/logo-li.png' aria-hidden="true"><a class="p-0 m-0" href=<?php echo "'https://www.linkedin.com/in/" . $linkedin ."'" ?>><?php echo $linkedin ?></a>
               </div>
-              <div class="py-0 my-0 ps-1">
-                <i class="fa fa-solid fa-envelope square-25 d-inline-block" aria-hidden="true"></i><a class="p-0 m-0" href="mailto:<?php echo $email ?>@osponow.com?subject=Swapping details&body=Now you have my email!"><?php echo $email ?>@osponow.com</a>
-              </div>
+              <?php
+              if ($email !== "None") {
+                echo'<div class="py-0 my-0 ps-1">
+                  <i class="fa fa-solid fa-envelope square-25 d-inline-block" aria-hidden="true"></i><a class="p-0 m-0" href="mailto:' . $email .'@osponow.com?subject=Swapping details&body=Now you have my email!">' . $email .'@osponow.com</a>
+                </div>';
+              }
+              ?>
               <div>
                 <i class="fa fa-solid fa-globe square-25 d-inline-block ps-1" aria-hidden="true"></i>
                 <a class="p-0 m-0" href="https://osponow.com">osponow.com</a>
@@ -99,7 +107,7 @@
             </div>
           </div>
           <img class="texture_card" src="/resources/images/texture_maroon_1.svg">
-      </div>
+      </div> -->
       </div>
     </div>
   </main>

@@ -92,7 +92,6 @@
       </div>
     <div class="row row-full-width bg-light d-flex py-5">
       <a id="team"><h2 class="text-secondary display-6">Our team</h2></a>
-      <p class="py-2">We are not actively hiring right now but if you are interested in being part of our team please send your CV to <a href="mailto:jobs@osponow.com">jobs@osponow.com</a> and we will send you an email if relevant jobs come up in the future.</p>
       <div class="row d-flex justify-content-between pb-5" id="team_list"></div>
     </div>
     </div>

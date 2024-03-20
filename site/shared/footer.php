@@ -7,7 +7,6 @@
           <p>Get in touch today!</p>
           <a href="mailto:hello@osponow.com">hello@osponow.com</a><br>
           <a href="https://www.linkedin.com/company/ospo-now"><img class='square-25 mt-2' alt="LinkedIn logo." src='/resources/images/logo-li.png'></a>
-          <a href="https://twitter.com/OSPO_Now"><img class='square-20 mt-2' alt="X logo." src='/resources/images/logo-x.png'></a>
         </div>
           <div class="col-12 col-sm-4 py-4 py-sm-0">
           <h4 class="py-2 text-secondary">Useful Links</h4>
@@ -22,7 +21,6 @@
               <li class="nav-item"><a href="/privacy.php" class="nav-link footer-item">Privacy Policy</a></li>
               <li class="nav-item"><a href="https://github.com/osponow/website" class="nav-link footer-item">GitHub <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
               <li class="nav-item"><a href="https://www.linkedin.com/company/ospo-now" class="nav-link footer-item">LinkedIn <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
-              <li class="nav-item"><a href="https://twitter.com/OSPO_Now" class="nav-link footer-item">Twitter/X <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
             </ul>
           </div>
           <div class="col-12 col-sm-4 pb-3 d-flex justify-content-center">
