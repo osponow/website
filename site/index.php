@@ -86,7 +86,7 @@
                 <div class="col-12">
                   <h1>Bespoke Contracts for <strong>You</strong></h1>
                   <p>
-                  There's no turnkey solution when it comes to open source and that bespoke touch is often needed for success.
+                  There is no turnkey solution when it comes to open source and that bespoke touch is often needed for success.
                   After an initial consultation to understand how open source can help your business, we'll put together the optimal team of open-source experts to solve your problems.
                   Contact us today and see how we can help you.
                   </p>
