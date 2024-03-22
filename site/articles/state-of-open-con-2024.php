@@ -8,7 +8,7 @@
       $header = "white";
       $name = "State of Open Con 2024";
 	$date = "2024-03-20";
-	$linkedin = "https://www.linkedin.com/feed/update/urn:li:share:7153332885972824065/";
+	$linkedin = "https://www.linkedin.com/feed/update/urn:li:activity:7176902706421223425";
 	$image = "soo.jpg";
 	$imagealt = "Purple screens saying SOOCon24 Open:UK, below screens are speakers Peter Zaitsev, Stephen Augustus, Liz Rice.";
 	$type = "Blog";
