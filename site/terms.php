@@ -35,7 +35,8 @@
             <div class="card-body">
               <p>
                 Unless otherwise stated, all Content of the Website, including but not limited to text, graphics, logos, images, and software, are the property of OSPO Now and are protected by copyright and any other intellectual property laws.
-                'OSPO Now' and the 'OSPO' logo are (unregistered) trademarks of OSPO Now.
+                'OSPO Now' &#174; is a registered trademark of OSPO Now Ltd.
+                The OSPO logo is also a trademark of OSPO Now Ltd.
                 Unless otherwise stated, you may not use, reproduce, distribute, or modify any content from the Website without our written consent.
               </p>
               <p>

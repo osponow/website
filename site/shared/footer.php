@@ -37,7 +37,8 @@
           Use of osponow.com is subject to our <a class="text-light" href="/terms.php">terms of use</a> and <a class="text-light" href="/privacy.php">privacy policy</a>.
           OSPO Now is a limited company registered in England and Wales under company number 15195581 at C/O Smb Llp, 87-91 Newman Street, London, W1T 3EY, United Kingdom.
           VAT number 452464885.
-          'OSPO Now' and the 'OSPO' logo are trademarks of OSPO Now Ltd.
+          'OSPO Now' &#174; is a registered trademark of OSPO Now Ltd.
+          The OSPO logo is also a trademark of OSPO Now Ltd.
         </p>
       </div>
     </div>
