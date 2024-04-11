@@ -9,7 +9,7 @@
       $name = "Ruth Ikegah";
 	$name_abbr = "Ikegah, R";
 	$email = "None";
-	$jobtitle = "Consultant";
+	$jobtitle = "Open Source Manager";
 	$pronouns = "She/Her";
 	$image = "ruth.jpg";
 	$linkedin = "ruth-ikegah";
