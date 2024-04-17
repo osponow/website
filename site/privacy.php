@@ -43,7 +43,7 @@
               <tr>
                 <td>You use Our online <a href="/contact.php">contact form</a> and agree to Our privacy policy.</td>
                 <td><ul><li>Full name</li><li>Email address</li></ul></td>
-                <td>We rely on <b>your consent</b> supplied when you agree to Our privacy policy to allow us to respond to your enquiry. You can withdraw your consent at any time by emailing <a href="mailto:dataprotection@osponow.com?subject=Withdraw%20Consent">dataprotection@osponow.com</a>.</td>
+                <td>We rely on <b>your consent</b> supplied when you agree to Our privacy policy to allow us to respond to your enquiry. You can withdraw your consent at any time by emailing <a href="mailto:hello@osponow.com?subject=Withdraw%20Consent">hello@osponow.com</a>.</td>
               </tr>
               <tr>
                 <td>You email an employee of OSPO Now.</td>
@@ -83,7 +83,7 @@
                 You are not required to pay any charge for exercising Your rights. If You make a request, We have one month to respond to You.
               </p>
               <p>
-                Please contact Us at <a href="mailto:dataprotection@osponow.com?subject=Data%20Protection%20Request">dataprotection@osponow.com</a> if You wish to make a request.
+                Please contact Us at <a href="mailto:hello@osponow.com?subject=Data%20Protection%20Request">hello@osponow.com</a> if You wish to make a request.
               </p>
             </div>
           </div>
@@ -157,7 +157,7 @@
           <div id="collapseComplain" class="collapse" aria-labelledby="headingComplain" data-bs-parent="#accordion">
             <div class="card-body">
               <p>
-                If You have any concerns about Our use of Your Personal Information, You can make a complaint to Us at <a href="mailto:dataprotection@osponow.com?subject=Complaint">dataprotection@osponow.com</a>.
+                If You have any concerns about Our use of Your Personal Information, You can make a complaint to Us at <a href="mailto:hello@osponow.com?subject=Complaint">hello@osponow.com</a>.
               </p>
               <p>
                 You can also complain to the ICO if You are unhappy with how We have used Your data.
