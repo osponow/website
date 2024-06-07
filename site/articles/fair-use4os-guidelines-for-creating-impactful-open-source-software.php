@@ -8,7 +8,7 @@
       $header = "white";
       $name = "FAIR-USE4OS Guidelines for creating impactful open-source software";
 	$date = "2024-06-07";
-	$linkedin = "FIXME";
+	$linkedin = "https://www.linkedin.com/feed/update/urn:li:activity:7204778081469825024";
 	$image = "fairuse.png";
 	$imagealt = "Image shows the text “Findable Accessible Interoperable Reusable - User-centered Sustainable Equitable” with FAIR labeled as ‘Executable’, USE labeled as ‘Open Source’ and all the text labeled as ‘Impactful’";
 	$type = "Blog";
