@@ -92,7 +92,7 @@
       </div>
     <div class="row row-full-width bg-light d-flex py-5">
       <a id="team"><h2 class="text-secondary display-6">Our team</h2></a>
-      <div class="row d-flex justify-content-between pb-5" id="team_list"></div>
+      <div class="row d-flex justify-content-left pb-5" id="team_list"></div>
     </div>
     </div>
   </main>
