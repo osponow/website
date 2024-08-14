@@ -9,7 +9,7 @@
       $name = "Dr Raphael Sonabend";
 	$name_abbr = "Sonabend, R";
 	$email = "r.sonabend";
-	$jobtitle = "CEO and Co-Founder";
+	$jobtitle = "Co-Founder";
 	$pronouns = "They/He";
 	$image = "raphael.jpeg";
 	$linkedin = "raphael-sonabend";
