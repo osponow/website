@@ -11,9 +11,9 @@
 	$email = "r.sonabend";
 	$jobtitle = "Co-Founder";
 	$pronouns = "They/He";
-	$image = "raphael.jpeg";
+	$image = "raphael.jpg";
 	$linkedin = "raphael-sonabend";
-	$content = "<p>Dr Raphael Sonabend is the CEO and and Co-Founder of OSPO Now.
+	$content = "<p>Dr Raphael Sonabend is the CEO and Co-Founder of OSPO Now.
 They have over 10 years of experience working in data analysis, data science, and open source, consulting for companies including LEGO, Nuffield Health, ISEH, and Roche on behalf of the Alan Turing Institute.
 Raphael oversees all work at OSPO Now as well as working on our strategy and growth.</p>
 <p>Prior to founding OSPO Now, Raphael worked at Genomics England developing an Open Source community for tools to enhance genomic equity.
