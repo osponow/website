@@ -8,7 +8,7 @@
       $header = "white";
       $name = "Data Science Without Borders training. Part 1: Overview";
 	$date = "2024-11-11";
-	$linkedin = "fixme";
+	$linkedin = "https://www.linkedin.com/posts/ospo-now_on-behalf-of-ospo-now-ruth-ikegah-recently-activity-7262027950345142273-HJNz";
 	$image = "dswb_1.jpg";
 	$imagealt = "Ruth Ikegah stands in front of a poster that says 'Data Science Without Borders' and includes logos of participating organisations including OSPO Now";
 	$type = "Blog";
