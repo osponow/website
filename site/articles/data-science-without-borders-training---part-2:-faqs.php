@@ -8,7 +8,7 @@
       $header = "white";
       $name = "Data Science Without Borders training - Part 2: FAQs";
 	$date = "2024-11-25";
-	$linkedin = "fixme";
+	$linkedin = "https://www.linkedin.com/posts/ospo-now_as-part-of-our-data-science-without-borders-activity-7269994691348074496-kxrL";
 	$image = "dswb_2.jpg";
 	$imagealt = "A large poster that says 'Data Science Without Borders' and includes logos of participating organisations including OSPO Now";
 	$type = "Blog";
