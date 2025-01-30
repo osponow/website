@@ -41,7 +41,7 @@
       </div>
       <div class="row pt-4">
         <p class="text-center">
-          OSPO Now Ltd &copy; 2024
+          OSPO Now Ltd &copy; 2024-<?php echo date("Y"); ?>
         </p>
       </div>
       <div class="row disclaimer">
