@@ -1,0 +1,1 @@
+import{_ as n,s as o,w as s,Y as a,o as _,a as c}from"./C-Z0HesI.js";const r={};function u(l,t){const e=a;return _(),o(e,{name:"updates"},{default:s(()=>t[0]||(t[0]=[c("div",null,null,-1)])),_:1})}const f=n(r,[["render",u]]);export{f as default};
