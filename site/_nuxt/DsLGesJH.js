@@ -1,1 +1,0 @@
-import{_ as n,s as o,w as a,Y as _,o as s,a as c}from"./DO0Ktzf2.js";const r={};function u(l,t){const e=_;return s(),o(e,{name:"team"},{default:a(()=>t[0]||(t[0]=[c("div",null,null,-1)])),_:1})}const f=n(r,[["render",u]]);export{f as default};
