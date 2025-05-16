@@ -1,0 +1,1 @@
+import{_ as n,s as o,w as a,a2 as s,o as _,a as c}from"./Q7-xXnmH.js";const r={};function u(l,t){const e=s;return _(),o(e,{name:"updates"},{default:a(()=>t[0]||(t[0]=[c("div",null,null,-1)])),_:1})}const f=n(r,[["render",u]]);export{f as default};
