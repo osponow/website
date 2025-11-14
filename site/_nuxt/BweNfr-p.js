@@ -1,0 +1,1 @@
+import{_ as n,v as o,w as a,a0 as _,o as s,a as c}from"./TJTzdPPB.js";const r={};function u(l,t){const e=_;return s(),o(e,{name:"team"},{default:a(()=>[...t[0]||(t[0]=[c("div",null,null,-1)])]),_:1})}const f=n(r,[["render",u]]);export{f as default};

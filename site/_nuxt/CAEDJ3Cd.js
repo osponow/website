@@ -1,1 +1,0 @@
-import{f as t,g as n,c as o,a3 as s,o as r}from"./1_AuFtXg.js";const m=t({__name:"raphael-sonabend",async setup(_){let e,a;return[e,a]=n(()=>s("/team/raphael-sonabend-friend")),await e,a(),(c,p)=>(r(),o("div"))}});export{m as default};
